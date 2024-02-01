@@ -1,11 +1,17 @@
 import java.util.Scanner;
 
 public class bai4slidetr94 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
         int n;
         System.out.println("nhap so");
         n =scanner.nextInt();
+        if (1 > n || n > 12) 
+        {
+            System.out.println("vui long nhap tu 1 den 12");
+            n =scanner.nextInt();
+        }
         switch (n)
         {
             case 1:System.out.println("thang 1");
@@ -32,9 +38,7 @@ public class bai4slidetr94 {
                 break;
             case 12:System.out.println("thang 12");
                 break;
-            default :System.out.println("moi nhap dung so tu 1 den 12");
-                break;
+           
         }
-
     }
 }

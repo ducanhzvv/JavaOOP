@@ -11,8 +11,13 @@ public class Baislide40 {
         int n;
         System.out.println("nhap so ngay: ");
         n =scanner.nextInt();
+        if (n > 7 || n < 1) 
+        {   
+            System.out.println("vui long nhap tu 1 den 7: ");
+            n =scanner.nextInt();
+        }     
         switch (n) 
-        {
+        {   
             case 1:System.out.println("ngay thu hai");
                 break;
             case 2:System.out.println("ngay thu ba");
@@ -26,8 +31,6 @@ public class Baislide40 {
             case 6:System.out.println("ngay thu bay");
                 break;
             case 7:System.out.println("ngay chu nhat");
-                break;
-            default:System.out.println("nhap sai moi nhap lai, vui long nhap tu 1 den 7");
                 break;
         }
     }
