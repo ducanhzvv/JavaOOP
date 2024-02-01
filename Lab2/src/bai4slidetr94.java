@@ -12,7 +12,7 @@ public class bai4slidetr94 {
             System.out.println("vui long nhap tu 1 den 12");
             n =scanner.nextInt();
         }
-        switch (n)
+        switch(n)
         {
             case 1:System.out.println("thang 1");
                 break;

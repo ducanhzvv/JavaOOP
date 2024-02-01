@@ -13,8 +13,8 @@ public class Baislide40 {
         n =scanner.nextInt();
         if (n > 7 || n < 1) 
         {   
-            System.out.println("vui long nhap tu 1 den 7: ");
-            n =scanner.nextInt();
+           System.out.println("vui long nhap tu 1 den 7: ");
+           n =scanner.nextInt();
         }     
         switch (n) 
         {   
