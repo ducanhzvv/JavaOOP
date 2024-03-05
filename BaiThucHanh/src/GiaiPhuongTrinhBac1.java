@@ -34,4 +34,4 @@ public static void giaiPTB1(float a, float b)
             System.out.println("phuong trinh co nghiem =" + x);
         }
     }
-}
+} 
