@@ -1,13 +1,10 @@
-public class App 
-{
-    public static void main(String[] args) throws Exception 
-    {
-      hinhvuong hv = new hinhvuong();
-      hv.nhapTen();
-      hv.nhapcanh();
-      hv.tinhCV();
-      hv.tinhDT();
-      hv.inCV();
-      hv.inDT();
-    }
+import Person.nhanvienfulltime;
+
+public class App {
+  public static void main(String[] args) {
+    nhanvienfulltime nv = new nhanvienfulltime();
+    nv.nhap();
+    nv.luong();
+    nv.in();
+  }
 }

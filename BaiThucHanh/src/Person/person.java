@@ -7,7 +7,7 @@ public class person
     public String hoten;
     public int tuoi;
     public String gioitinh;
-    public void nhapthongtin()
+    public void nhap()
     {
         Scanner scanner = new Scanner(System.in);
         System.out.print("nhap ho va ten: ");
@@ -17,7 +17,7 @@ public class person
         System.out.print("nhap tuoi: ");
         tuoi = scanner.nextInt();
     }
-    public void inthongtin()
+    public void in()
     {
         System.out.println("hoa va ten: " + hoten);
         System.out.println("tuoi: " + tuoi);
