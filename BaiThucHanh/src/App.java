@@ -2,9 +2,9 @@ import Person.nhanvienfulltime;
 
 public class App {
   public static void main(String[] args) {
-    nhanvienfulltime nv = new nhanvienfulltime();
+    baislide79chuong3 nv = new baislide79chuong3();
     nv.nhap();
-    nv.luong();
+    nv.tinhluong();
     nv.in();
   }
 }
